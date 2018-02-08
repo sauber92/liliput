@@ -1,0 +1,23 @@
+{
+  "name": "liliput",
+  "version": "0.0.0",
+  "description": "sauber92's short URL, Using Naver API",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauber92/liliput.git"
+  },
+  "author": "Junyoung Jung(sauber92)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.15.5",
+    "body-parser": "~1.18.2",
+    "multer": "latest",
+    "request": "latest",
+    "ejs": "latest"
+  }
+}
